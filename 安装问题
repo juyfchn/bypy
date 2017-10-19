@@ -1,0 +1,5 @@
+错误：OPENSSL_1.0.0 not defined in file libcrypto.so.1.0.0
+原因：You need to update it to the version that matches your openssl package (1.0.1-4ubuntu5.38) by installing all security updates
+解决办法
+$apt-get update 
+$apt-get dist-upgrade
