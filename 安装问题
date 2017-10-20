@@ -9,7 +9,7 @@ $apt-get dist-upgrade
  apt-get install python-setuptools
  easy_install pip
 
-查看locale并设置loacle为UTF-8中文环境
-locale-gen zh_CN.utf8
+查看locale并设置loacle为UTF-8环境
+locale-gen en_US en_US.UTF-8
 dpkg-reconfigure locales
-按z，再选择zh_CN.utf8
+按e，再选择
