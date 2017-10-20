@@ -10,6 +10,6 @@ $apt-get dist-upgrade
  easy_install pip
 
 查看locale并设置loacle为UTF-8环境
-locale-gen en_US en_US.UTF-8
+locale-gen zh_CN.utf8
 dpkg-reconfigure locales
 按e，再选择
