@@ -3,3 +3,8 @@
 解决办法
 $apt-get update 
 $apt-get dist-upgrade
+
+错误：-bash: pip: command not found
+解决办法
+ apt-get install python-setuptools
+ easy_install pip
